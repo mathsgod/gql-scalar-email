@@ -1,4 +1,5 @@
 {
+    "description": "graphql scalar email",
     "repositories": [
         {
             "type": "composer",
@@ -16,9 +17,12 @@
     ],
     "require": {},
     "require-dev": {
-        "mathsgod/r-graphql": "^1.2"
+        "webonyx/graphql-php": "^0.12.6",
+        "phpunit/phpunit": "^6.5"
     },
     "autoload": {
-        "\\Scalar\\": "src"
+        "psr-4": {
+            "Scalar\\": "src"
+        }
     }
 }
