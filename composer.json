@@ -1,0 +1,21 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://raymond2.hostlink.com.hk/satis/web"
+        }
+    ],
+    "name": "mathsgod/gql-scalar-email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymond Chong",
+            "email": "mathsgod@yahoo.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "mathsgod/r-graphql": "^1.2"
+    }
+}
