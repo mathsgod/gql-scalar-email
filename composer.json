@@ -17,5 +17,8 @@
     "require": {},
     "require-dev": {
         "mathsgod/r-graphql": "^1.2"
+    },
+    "autoload": {
+        "\\Scalar\\": "src"
     }
 }
